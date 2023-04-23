@@ -1,0 +1,5 @@
+checksum: eadb332c41a4d3a7004618c7e6e3512c355098014c02e9e03804dc8773f1a53f
+working-dir: testdir
+outputs:
+  testdir/cifar-10-python.tar.gz:
+    checksum: fe3d11c475ae0f6fec91f3cf42f9c69e87dc32ec6b44a83f8b22544666e25eea
