@@ -1,0 +1,18 @@
+project_id: 1560240a-1fc1-4c29-b7e8-c65d6f634544
+project_name: gpt4all
+container_image: gltr/minimal-notebook
+gpu_required: false
+default_execution_platform: docker
+git_repo: https://github.com/seanrmurphy/gpt4all.git
+project_public_key: ""
+users:
+    - name: Sean Murphy
+      email: sean.murphy@sdsc.ethz.ch
+      ssh_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCeUnxYGfGebTcsrRHgX0MDyxXv7zxB0coC8bpj8FUntB798fV6z+ZS8AT2jfhlk64RUccs/VSFYYyJyLXSyFsAIJReqEMjBK0Gyq63eMFwiqycvWW5n+tNWH98AlSGurl6aAGhUbL67s12mdF3/xAcyQw/U5hPNxbLuT1g6k0Rn9GCVjA++d76W9xLEYp/rat0Mwp+Rys7/D4Y0x8FLJxl3OqtW+Q5BNDTR0BRV17YtVhchiWwQI063nD/l/3+Vuuw7HvgoKskGTLxEruqoACgq16ld6MFHZMX0HcgyEfMkAXwMC5RhFIA0wS+ueGe5GWPj6UQklEpL1PCh8V5uqVrSNkTkCH8FaK9Z0p4rC43euUalOgm8ujPrvJbiWCoQbtZwR3MpD74pgGBt4HcJlDv2LKwnSo11jB+BUR0zPZO99UBuTDcLtJRfCbKLhnPnuLbRPRD4tEHfFnHjJqG6bRD9hRoQVM0s5TKPQJfH3ZOtmRi6FPXmVabLxfFbxqYQFmalLZHc63UApGUeKogxPTQoRPn1nros13JM5F9CVwe2uTELUWbDLkP8oJHPhd3nDstu88qpdCcYNBcgSrxU36YvtcV3ABIaxUFqFL49rqz9J7dnSI4uXeoLHGlv8qe0k9BeD2G3K0QWRHpWZ7VxMaxfHXIvOM6i7ddWtkCNU7EvQ== cardno:000618245504
+execution_platform_configs:
+    - type: docker
+      configuration:
+        gpu_enabled: false
+ports:
+    - 8888
+    - 22
