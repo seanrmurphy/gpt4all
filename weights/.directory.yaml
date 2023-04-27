@@ -1,0 +1,5 @@
+checksum: 4dff929a85fce4b64bf68c5647cda149f7716e1a3cd0c62f78fefc9fa8ad4252
+working-dir: weights
+outputs:
+  weights/gpt4all-lora-quantized.bin:
+    checksum: 4f08a049510c8da2e8241b4926a82f486aa965ba0fc945b5db7f9e9bd5257116
