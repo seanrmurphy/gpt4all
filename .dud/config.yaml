@@ -1,0 +1,17 @@
+# Dud project-level config file
+
+# This config file overrides any user configuration from
+# "$XDG_CONFIG_HOME/dud/config.yaml" or "~/.config/dud/config.yaml".
+
+# This is the default cache location. Uncomment here or add to your user-level
+# config to override.
+# cache: .dud/cache
+
+# To enable push and fetch, set 'remote' to a valid rclone remote path. For
+# example, if you have a remote called "s3" in your .dud/rclone.conf, and you
+# want your remote cache to live in a bucket called 'dud', you would write:
+#
+# remote: s3:dud
+#
+# For more info, see the rclone docs:
+# https://rclone.org/docs/#syntax-of-remote-paths
